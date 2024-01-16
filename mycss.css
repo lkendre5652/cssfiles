@@ -2,11 +2,13 @@ body{
 	width:80% ;
 	height: 100vh;
 	background: silver;
-	background-image: url('my.jpeg');
+	background-image: url('my.jpeg'), url('banner.jpeg');
 /*	background-size: cover;*/
 /*	background-size: contain;*/
-/*	background-size: 100% 100%;*/
-	background-position: top right;
-	background-position: center;
+	background-size: 100% 100%;
+/*	background-position: top right;*/
+/*	background-position: center;*/
 	background-repeat:no-repeat ;
+/*	the background:  blend mode is use with 2 or more background images*/
+	background-blend-mode:difference ; 
 }
